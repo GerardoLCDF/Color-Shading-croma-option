@@ -1,49 +1,50 @@
 # Aseprite Color Shading v4.0
 
-Este script para [Aseprite](https://www.aseprite.org/) abre una ventana dinámica de selección de color con opciones relevantes de degradado y matiz, ayudándote a crear paletas y sombras de forma más sencilla.
+This script for [Aseprite](https://www.aseprite.org/) opens a dynamic color selection window with relevant gradient and hue options, helping you to easily create palettes and shade variations.
 
-## Créditos y Orígenes
+## Credits and Origins
 
-Este trabajo se basa en contribuciones previas:
+This work is based on previous contributions:
 
-- Versión 1.0-2.0 por [Dominick John](https://github.com/dominickjohn/aseprite/tree/master) y [David Capello](https://aseprite.org/).
-- Versión 3.0 por [yashar98](https://github.com/yashar98/aseprite/tree/main).
-- Versión 3.1 por [Daeyangae](https://github.com/Daeyangae/aseprite).
-- Versión 4.0 por [Manuel Hoelzl](https://github.com/hoelzlmanuel/aseprite-color-shading).
+- Version 1.0-2.0 by [Dominick John](https://github.com/dominickjohn/aseprite/tree/master) and [David Capello](https://aseprite.org/).
+- Version 3.0 by [yashar98](https://github.com/yashar98/aseprite/tree/main).
+- Version 3.1 by [Daeyangae](https://github.com/Daeyangae/aseprite).
+- Version 4.0 by [Manuel Hoelzl](https://github.com/hoelzlmanuel/aseprite-color-shading).
 
-Esta versión mantiene las funcionalidades introducidas anteriormente y agrega mejoras adicionales.
+This version maintains previously introduced functionalities while adding additional improvements.
 
-## Instalación
+## Installation
 
-1. Descarga el archivo del script (ej. `Color Shading v4.0.lua`).
-2. Abre Aseprite y ve a **File -> Scripts -> Open Scripts Folder** para abrir la carpeta de scripts.
-3. Copia el archivo del script en la carpeta de scripts de Aseprite.
-4. Reinicia Aseprite si es necesario.
+1. Download the script file (e.g. `Color Shading v4.0.lua`).
+2. Open Aseprite and go to **File -> Scripts -> Open Scripts Folder** to open the scripts directory.
+3. Copy the script file into Aseprite’s scripts folder.
+4. Restart Aseprite if necessary.
 
-## Uso
+## Usage
 
-1. En Aseprite, ve a **File -> Scripts -> Color Shading v4.0** para ejecutar el script.
-2. Se abrirá una ventana con diferentes secciones de colores y opciones para generar paletas.
+1. In Aseprite, go to **File -> Scripts -> Color Shading v4.0** to run the script.
+2. A window with different color sections and palette generation options will appear.
 
-### Funcionalidades:
+### Features:
 
-- **Base:** Al hacer clic en uno de los colores base, el resto de las sombras y matices se recalcularán en función de ese color.
-- **Botón "Get":** Actualiza los colores base usando el color de primer plano (FG) y de fondo (BG) actuales, y regenera las sombras.
-- **Clic Izquierdo en un color:** Establece ese color como el FG (foreground).
-- **Clic Derecho en un color:** Establece ese color como BG (background).
-- **Clic Medio en un color:** Alterna entre FG/BG dependiendo de cuál se cambió por última vez (si "auto pick" está activado), y regenera todas las sombras basadas en el nuevo color.
+- **Base:** Clicking on one of the base colors will recalculate the rest of the shades and nuances based on that color.
+- **"Get" Button:** Updates the base colors using the current foreground (FG) and background (BG) colors, and regenerates the shades.
+- **Left Click on a Color:** Sets that color as the FG.
+- **Right Click on a Color:** Sets that color as the BG.
+- **Middle Click on a Color:** Toggles between FG/BG depending on which was last changed (if "auto pick" is enabled), and regenerates all shades based on the new color.
   
-### Controles Avanzados:
+### Advanced Controls:
 
-- **Temperatura (Temp. Osc. / Temp. Clara):** Ajustan la temperatura (tinte cálido o frío) para las sombras oscuras y claras, respectivamente.
-- **Intensidad (Intensity):** Agrega un gradiente de saturación a las muestras de sombra.
-- **Pico (Peak):** Agrega un gradiente de luminosidad en las sombras, afectando cuánto se aclaran las muestras más claras.
-- **Oscilación (Sway):** Ajusta la influencia real de las temperaturas establecidas.
-- **Ranuras (Slots):** Cambia el número de muestras de color generadas.
+- **Temperature (Dark/Light):** Adjusts warm/cool hue shifts for dark and light shades, respectively.
+- **Intensity:** Adds a saturation gradient to the shade swatches.
+- **Peak:** Adds a lightness gradient to the shades, affecting how much brighter the lighter swatches become.
+- **Sway:** Adjusts how strongly the set temperatures influence the resulting colors.
+- **Slots:** Changes the number of generated color swatches.
 
-## Notas
+## Notes
 
-- Asegúrate de tener la última versión de Aseprite para la compatibilidad con scripts.
-- Este script está destinado a artistas y diseñadores que trabajen con pixel art y necesiten herramientas para generar rápidamente paletas y degradados de color.
+- Make sure you have the latest version of Aseprite for script compatibility.
+- This script is intended for pixel artists and designers who need tools to quickly generate palettes and color gradients.
 
   <img width="363" alt="Color Shading v4 0" src="shadow/example.png">
+
