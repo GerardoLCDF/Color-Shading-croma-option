@@ -1,0 +1,13 @@
+{
+    "name": "vista_previa_extension",
+    "version": "1.0",
+    "description": "Extensión para mostrar vista previa de imágenes en Aseprite.",
+    "author": "TuNombre",
+    "contributors": [],
+    "categories": ["scripts"],
+    "installedFiles": [
+      "main.lua",
+      "package.json"
+    ]
+  }
+  

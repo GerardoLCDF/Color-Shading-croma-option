@@ -1,0 +1,18 @@
+{
+  "name": "background-image-extension",
+  "displayName": "Background Image",
+  "description": "Agregar imagen como fondo con controles de zoom y movimiento.",
+  "version": "1.0.1",
+  "author": {
+    "name": "TuNombre",
+    "email": "tuemail@example.com"
+  },
+  "categories": ["Scripts"],
+  "contributes": {
+    "scripts": [
+      {
+        "path": "./extension.lua"
+      }
+    ]
+  }
+}
