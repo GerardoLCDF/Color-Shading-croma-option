@@ -1,4 +1,4 @@
-# Aseprite Color Shading v4.0
+# Aseprite Color Shading v5.0
 
 This script for [Aseprite](https://www.aseprite.org/) opens a dynamic color selection window with relevant gradient and hue options, helping you to easily create palettes and shade variations.
 
