@@ -46,4 +46,4 @@ Esta versión mantiene las funcionalidades introducidas anteriormente y agrega m
 - Asegúrate de tener la última versión de Aseprite para la compatibilidad con scripts.
 - Este script está destinado a artistas y diseñadores que trabajen con pixel art y necesiten herramientas para generar rápidamente paletas y degradados de color.
 
-  <img width="363" alt="Color Shading v4 0" src="https://github.com/hoelzlmanuel/aseprite-color-shading/assets/26813147/6c147bad-40e7-4d8f-9d73-52d503e42433](https://github.com/GerardoLCDF/Color-Shading-croma-option/blob/main/shadow/example.png">
+  <img width="363" alt="Color Shading v4 0" src="shadow/example.png">
